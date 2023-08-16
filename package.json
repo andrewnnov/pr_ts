@@ -1,0 +1,16 @@
+{
+  "name": "pr_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed --project=Chromium --reporter=list",
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.0"
+  }
+}
